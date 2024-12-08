@@ -16,22 +16,25 @@ This tool takes a string input and reverses all non-punctuation characters while
 - Debug output using icecream for better development experience
 
 ## Prerequisites
-`bash
-  pip install tqdm rich icecream
+```bash
+   pip install tqdm rich icecream
+```
+
+  
 
 
 ## Usage
 
 Run the script and enter your text when prompted:
-`bash
+```bash
   python text_manipulation.py
-
+```
 ## Example
-`python
-  Input: "Hello, World!"
-  Output: "dlroW, olleH!"
-  Input: "Hi! How are you?"
-  Output: "uoy! era woH? iH"
+python
+- Input: "Hello, World!"
+- Output: "dlroW, olleH!"
+- Input: "Hi! How are you?"
+- Output: "uoy! era woH? iH"
 
 ## Dependencies
 
